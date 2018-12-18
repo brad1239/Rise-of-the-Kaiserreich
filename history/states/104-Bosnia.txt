@@ -1,0 +1,30 @@
+
+state={
+	id=104
+	name="STATE_104"
+	resources={
+		aluminium=7.000
+	}
+
+	history={
+		owner = OTT
+		victory_points = {
+			11899 5 
+		}
+		buildings = {
+			infrastrucOTTe = 5
+			industrial_complex = 2
+			air_base = 2
+
+		}
+		add_core_of = OTT
+
+	}
+
+	provinces={
+		982 11741 11899 13212 13213 
+	}
+	manpower=2457400
+	buildings_max_level_factor=1.000
+	state_category=town
+}

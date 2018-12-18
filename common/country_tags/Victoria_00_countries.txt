@@ -1,0 +1,8 @@
+OTT	= "countries/Ottomans.txt"
+RUS	= "countries/Russia.txt"
+UNC	= "countries/Uncolonised.txt"
+MOR	= "countries/Morocco.txt"
+BAV	= "countries/Bavaria.txt"
+WUR	= "countries/Wurtenburg.txt"
+ALS	= "countries/Alasces.txt"
+SAX	= "countries/Saxony.txt"

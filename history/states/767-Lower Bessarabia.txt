@@ -1,0 +1,22 @@
+state={
+	id=767
+	name="STATE_767"
+
+	history={
+		owner = RUS
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = RUS
+		add_core_of = ROM
+
+	}
+
+	provinces={
+		3701 6727 
+	}
+	manpower=500000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

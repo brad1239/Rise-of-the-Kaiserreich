@@ -1,0 +1,14 @@
+﻿l_english:
+#Bavaria
+ BAV_PRS_fascism:0 "Bavaryen"
+ BAV_PRS_fascism_DEF:0 "Bavaryen"
+ BAV_PRS_democratic:0 "Bavaryen"
+ BAV_PRS_democratic_DEF:0 "Bavaryen"
+ BAV_PRS_neutrality:1 "Bavaryen"
+ BAV_PRS_neutrality_DEF:1 "Bavaryen"
+ BAV_PRS_communism:0 "Bavaryen"
+ BAV_PRS_communism_DEF:0 "Bavaryen"
+ BAV_PRS_fascism_ADJ:0 "Bavaryen"
+ BAV_PRS_democratic_ADJ:0 "Bavaryen"
+ BAV_PRS_neutrality_ADJ:0 "Bavaryen"
+ BAV_PRS_communism_ADJ:0 "Bavaryen"

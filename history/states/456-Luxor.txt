@@ -1,0 +1,22 @@
+
+state={
+	id=456
+	name="STATE_456"
+
+	history={
+		owner = OTT
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = EGY
+
+	}
+
+	provinces={
+		1028 1064 1143 1151 1206 2064 7030 7073 7144 7216 10028 10097 10127 10869 11974 11999 12044 12071 12099 12764 12771 12816 
+	}
+	manpower=4224516
+	buildings_max_level_factor=1.000
+	state_category=rural
+}
