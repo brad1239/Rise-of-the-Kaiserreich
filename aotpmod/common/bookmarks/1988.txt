@@ -1,0 +1,96 @@
+bookmarks = {
+	bookmark = {
+		name = "1988"
+		desc = "The 1988."
+		date = 1988.1.1.12
+		picture = "GFX_select_date_1988"
+		default_country = "YUG"
+	
+		USA = {
+			history = USA_BLITZKRIEG_DESC
+			ideology = conservative
+			ideas = {
+				home_of_the_free
+				great_depression
+				air_war_plans_division_focus
+				bureau_of_ships_focus
+				escort_effort_focus
+			}
+			focuses = {
+			}
+		}
+		ENG = {
+			history = ENG_BLITZKRIEG_DESC
+			ideology = democratic
+			ideas = {
+				stiff_upper_lip
+				ENG_the_war_to_end_all_wars
+				ENG_george_vi
+				british_austerity_idea
+				ENG_colonial_elite
+			}
+			focuses = {
+			}
+			
+		}
+		SOV = {
+			history = GER_BLITZKRIEG_DESC
+			ideology = communist
+			ideas = {
+				sour_loser
+				general_staff
+				GER_mefo_bills_15
+				GER_autarky_idea
+			}
+			focuses = {
+			}
+		}
+		DDR = {
+			history = ITA_BLITZKRIEG_DESC
+			ideology = communist
+			ideas={
+				vittoria_mutilata
+				victor_emmanuel
+			}
+			focuses = {
+			}			
+		}
+		YUG = {
+			history = FRA_BLITZKRIEG_DESC
+			ideology = communist
+			ideas={
+				FRA_victors_of_wwi
+				FRA_disjointed_government
+				FRA_protected_by_the_maginot_line
+			}
+			focuses = {
+			}
+		}
+		FRA = {
+			history = JAP_BLITZKRIEG_DESC
+			ideology = socialist
+			ideas={
+				state_shintoism
+				JAP_guide_the_zaibatsus
+				JAP_militarism
+			}	
+			focuses = {
+			}		
+		}
+		WGR = {
+			history = SOV_BLITZKRIEG_DESC
+			ideology = christian_democrat
+			ideas = {
+				trotskyite_plot_purged
+				home_of_revolution
+				officers_purged
+				nkvd_2
+			}
+			focuses = {
+			}	
+		}
+		"---"={
+			history = "OTHER_BLITZKRIEG_DESC"
+		}
+	}
+}

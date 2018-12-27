@@ -1,0 +1,67 @@
+ideas = {
+
+monarchist_influence = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = monarchist
+			}
+
+			removal_cost = -5
+
+			picture = generic_democratic_drift_bonus
+			
+			modifier = {
+				monarchist_drift = 0.4
+				monarchist_acceptance = 85
+			}
+		}
+
+		theocrat_influence = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = theocratic
+			}
+
+			removal_cost = -6
+
+			picture = generic_democratic_drift_bonus
+			
+			modifier = {
+				theocratic_drift = 0.4
+				theocratic_acceptance = 85
+			}
+		}
+	
+	communist_reforms = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = communist
+				has_government = socialist
+			}
+
+			removal_cost = -1
+
+			picture = generic_democratic_drift_bonus
+			
+			modifier = {
+				stability_factor = 0.4
+				war_support_factor = 0.6
+		war_support_weekly = 0.03
+		drift_defence_factor = 0.40
+			}
+		}

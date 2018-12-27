@@ -1,0 +1,33 @@
+state={
+	id=763
+	name="STATE_763"
+	resources={
+		steel=8.000
+	}
+
+	history={
+		owner = YUG
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = YUG
+		victory_points = {
+			13217 14 
+		}
+		1995.1.1 = {
+			owner = BOS
+			add_core_of = BOS
+			set_demilitarized_zone = yes
+
+		}
+
+	}
+
+	provinces={
+		606 982 11741 13216 13217 
+	}
+	manpower=563446
+	buildings_max_level_factor=1.000
+	state_category=city
+}

@@ -1,0 +1,26 @@
+state={
+	id=824
+	name="STATE_824"
+	
+	history={
+		owner = VAT
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = VAT
+		add_core_of = VAT
+		victory_points = {
+			13236 10 
+		}
+	}
+
+
+	provinces={
+	
+		13236 
+		}
+	manpower=1433
+	buildings_max_level_factor=1.000
+state_category=city
+}

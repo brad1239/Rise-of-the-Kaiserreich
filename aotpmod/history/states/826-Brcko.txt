@@ -1,0 +1,28 @@
+state={
+	id=826
+	name="STATE_826"
+	history={
+		owner = YUG
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = YUG
+		victory_points = {
+			11574 14 
+		}
+		1995.1.1 = {
+			owner = BOS
+			add_core_of = BOS
+			set_demilitarized_zone = yes
+
+		}
+
+	}
+	provinces={
+		11574 13221 
+	}
+	manpower=432234
+	buildings_max_level_factor=1.000
+state_category=city
+}

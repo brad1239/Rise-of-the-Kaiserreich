@@ -1,0 +1,27 @@
+state={
+	id=831
+	name="STATE_831"
+		history={
+		owner = SOV
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = SOV
+		add_core_of = SOV
+		victory_points = {
+			9906 10 
+		}
+	1995.1.1 = {
+		owner = OSS
+		add_core_of = OSS
+		}
+	}
+
+	provinces={
+		9626 
+	}
+	manpower=600000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

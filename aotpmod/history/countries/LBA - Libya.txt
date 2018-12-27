@@ -1,0 +1,89 @@
+﻿capital = 448
+
+
+set_convoys = 20
+
+1939.1.1 = {
+
+	add_political_power = 1198
+	
+	#generic focuses
+	complete_national_focus = army_effort
+	complete_national_focus = equipment_effort
+	complete_national_focus = motorization_effort
+	complete_national_focus = aviation_effort
+	complete_national_focus = naval_effort
+	complete_national_focus = large_navy
+	complete_national_focus = industrial_effort
+	complete_national_focus = construction_effort
+	complete_national_focus = production_effort
+	
+}
+
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 25
+		}
+
+		fascism = {
+			popularity = 20
+		}
+		
+		communism = {
+			popularity = 5
+			#banned = no #default is no
+		}
+		
+		neutrality = { 
+			popularity = 50
+		}
+	}
+	
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Bashir es Sadawi"
+	desc = ""
+	picture = "Portrait_Arabia_Generic_democratic1.dds"
+	ideology = liberalism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Ettore Bastico"
+	desc = ""
+	picture = "Portrait_Italy_Giuseppe_Fioravanzo.dds"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Idris Senussi"
+	desc = ""
+	picture = "Portrait_Arabia_Generic_land_3.dds"
+	ideology = despotism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Hassan as-Senussi"
+	desc = ""
+	picture = "Portrait_Arabia_Generic_communism1.dds"
+	ideology = leninism
+	traits = {
+		#
+	}
+}

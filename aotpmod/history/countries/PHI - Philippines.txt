@@ -1,0 +1,95 @@
+﻿capital = 327
+
+oob = "PHI_1936"
+
+
+set_convoys = 5
+
+1939.1.1 = {
+
+	add_political_power = 1198
+	
+	#generic focuses
+	complete_national_focus = army_effort
+	complete_national_focus = equipment_effort
+	complete_national_focus = motorization_effort
+	complete_national_focus = aviation_effort
+	complete_national_focus = naval_effort
+	complete_national_focus = flexible_navy
+	complete_national_focus = industrial_effort
+	complete_national_focus = construction_effort
+	complete_national_focus = production_effort
+	
+	oob = "PHI_1939"
+
+}
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 82
+		}
+
+		fascism = {
+			popularity = 9
+		}
+		
+		communism = {
+			popularity = 9
+			#banned = no #default is no
+		}
+	}
+	
+	ruling_party = democratic
+	last_election = "1935.9.15"
+	election_frequency = 72
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Manuel Luis Quezón"
+	desc = "POLITICS_MANUEL_LUIS_QUEZON_DESC"
+	picture = "gfx/leaders/PHI/Portrait_Philippines_Manuel_Luis_Quezon.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Pedro P. Baguisa"
+	desc = "POLITICS_PEDRO_BAGUISA_DESC"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_2.dds"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+		#
+	}
+}
+
+1939.1.1 = {
+	set_politics = {
+
+		parties = {
+			democratic = { 
+				popularity = 82
+			}
+
+			fascism = {
+				popularity = 9
+			}
+			
+			communism = {
+				popularity = 9
+				#banned = no #default is no
+			}
+		}
+		
+		ruling_party = democratic
+		last_election = "1935.9.15"
+		election_frequency = 72
+		elections_allowed = yes
+	}
+}

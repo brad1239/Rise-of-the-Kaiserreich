@@ -1,0 +1,26 @@
+state={
+	id=808
+	name="STATE_808"
+	
+	history={
+		owner = YUG
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = YUG
+		add_core_of = SER
+		1995.1.1 = {
+		owner = BOS
+			add_core_of = BOS
+		}
+		}
+
+	
+	provinces={
+		3985 9586 
+	}
+	manpower=500000
+	buildings_max_level_factor=1.000
+ state_category=rural
+}

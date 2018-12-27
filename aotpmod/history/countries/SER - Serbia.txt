@@ -1,0 +1,137 @@
+﻿capital = 107
+
+oob = "YUG_1936"
+
+set_research_slots = 3
+
+add_ideas = {
+	anti_german_military
+}
+
+1939.1.1 = {
+
+	add_ideas = {
+		limited_conscription
+	}
+
+	add_political_power = 1198
+	
+	#generic focuses
+	complete_national_focus = army_effort
+	complete_national_focus = equipment_effort
+	complete_national_focus = motorization_effort
+	complete_national_focus = aviation_effort
+	complete_national_focus = naval_effort
+	complete_national_focus = flexible_navy
+	complete_national_focus = industrial_effort
+	complete_national_focus = construction_effort
+	complete_national_focus = production_effort
+	
+	oob = "YUG_1939"
+}
+
+set_convoys = 0
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 0
+		}
+
+		fascism = {
+			popularity = 0
+		}
+		
+		communism = {
+			popularity = 100
+			#banned = no #default is no
+		}
+		
+		neutrality = { 
+			popularity = 0
+		}
+	}
+	
+	ruling_party = communism
+	last_election = "1936.1.1"
+	election_frequency = 36
+	elections_allowed = yes
+}
+
+1995.1.1 = {
+	set_politics = {
+
+		parties = {
+			democratic = { 
+				popularity = 100
+			}
+
+			fascism = {
+				popularity = 0
+			}
+			
+			communism = {
+				popularity = 0
+				#banned = no #default is no
+			}
+			
+			neutrality = { 
+				popularity = 0
+			}
+		}
+		
+		ruling_party = democratic
+		last_election = "1938.1.1"
+		election_frequency = 36
+		elections_allowed = yes
+	}
+}
+set_stability = 0.6
+
+create_country_leader = {
+	name = "Draza Mihailovic"
+	desc = ""
+	picture = "Portrait_Yugoslavia_Prince_Paul.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Milan Nedic"
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Peter Karadordevic"
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+	expire = "1965.1.1"
+	ideology = Despotism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Zivorad Jovanovic"
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	expire = "1965.1.1"
+	ideology = leninism
+	traits = {
+		#
+	}
+}
+1995.1.1 = {
+set_cosmetic_tag = SER_MNT
+}

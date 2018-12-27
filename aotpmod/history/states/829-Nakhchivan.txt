@@ -1,0 +1,28 @@
+state={
+	id=829
+	name="STATE_829"
+	
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = SOV
+		add_core_of = SOV
+		victory_points = {
+			9906 10 
+		}
+	1995.1.1 = {
+		owner = AZR
+		add_core_of = NAK
+		}
+	}
+	
+	provinces={
+		6997 
+	}
+	manpower=600000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

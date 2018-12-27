@@ -1,0 +1,93 @@
+bookmarks = {
+	bookmark = {
+		name = "2010"
+		desc = "The 2010."
+		date = 2010.1.1.12
+		picture = "GFX_select_date_2010"
+		default_country = "YUG"
+	
+		YUG = {
+			history = FRA_BLITZKRIEG_DESC
+			ideology = democratic
+			ideas={
+				FRA_victors_of_wwi
+				FRA_disjointed_government
+				FRA_protected_by_the_maginot_line
+			}
+			focuses = {
+			}
+		}
+		USA = {
+			history = USA_BLITZKRIEG_DESC
+			ideology = democratic
+			ideas = {
+				home_of_the_free
+				great_depression
+				air_war_plans_division_focus
+				bureau_of_ships_focus
+				escort_effort_focus
+			}
+			focuses = {
+			}
+		}
+		ENG = {
+			history = ENG_BLITZKRIEG_DESC
+			ideology = democratic
+			ideas = {
+				stiff_upper_lip
+				ENG_the_war_to_end_all_wars
+				ENG_george_vi
+				british_austerity_idea
+				ENG_colonial_elite
+			}
+			focuses = {
+			}
+			
+		}
+		SOV = {
+			history = GER_BLITZKRIEG_DESC
+			ideology = fascism
+			ideas = {
+				sour_loser
+				general_staff
+				GER_mefo_bills_15
+				GER_autarky_idea
+			}
+			focuses = {
+			}
+		}
+		PRC = {
+			history = ITA_BLITZKRIEG_DESC
+			ideology = fascism
+			ideas={
+				vittoria_mutilata
+				victor_emmanuel
+			}
+			focuses = {
+			}			
+		}
+		FRA = {
+			history = JAP_BLITZKRIEG_DESC
+			ideology = fascism
+			ideas={
+				state_shintoism
+				JAP_guide_the_zaibatsus
+				JAP_militarism
+			}	
+			focuses = {
+			}		
+		}
+		WGR = {
+			history = SOV_BLITZKRIEG_DESC
+			ideology = communism
+			ideas = {
+				trotskyite_plot_purged
+				home_of_revolution
+				officers_purged
+				nkvd_2
+			}
+			focuses = {
+			}
+		}
+	}
+}

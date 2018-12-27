@@ -1,0 +1,48 @@
+﻿#Ashes of the Past
+
+#MOD LEADERS
+TheMarecar12
+Mr.SlobodanMilosevic
+
+#DEVELOPERS
+Radovan Karadzic
+MarkoCerak
+Lavader
+Basto
+KomissarYoshi
+Milomir Maric
+Chairman VitorHL
+
+#MAPPERS
+Radovan Karadzic
+
+#TECH TREE MAKERS
+TheMarecar12
+
+#FOCUS TREE MAKERS
+Lavader
+TheMarecar12
+Basto
+RasmusCro
+
+#ARTISTS
+Mr.SlobodanMilosevic
+MarkoCerak
+KomissarYoshi
+Chairman VitorHL
+
+#HELPERS
+RasmusCro
+RhodesiaBoo
+Unwilledduck
+Soiglotreekavicator
+FPOSupporter
+
+#ADDITIONAL RESOURCES
+Yard1 - Custom Newspapers
+CALI - GFX Icon Resources
+Kaiserreich - GFX Icon Resources
+Paradox COOP Shared Resources
+
+#SPECIAL THANKS TO
+Ahmeteris
